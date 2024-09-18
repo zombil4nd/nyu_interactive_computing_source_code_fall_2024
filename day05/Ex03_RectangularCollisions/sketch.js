@@ -1,8 +1,8 @@
 // artwork
-var mario, mario_blue;
+let mario, mario_blue;
 
 // location of mario
-var marioX, marioY;
+let marioX, marioY;
 
 // preload artwork
 function preload() {
@@ -26,14 +26,14 @@ function draw() {
   background(0);
 
   // compute the four sides of each character
-  var marioRight = marioX + mario.width;
-  var marioLeft  = marioX;
-  var blueRight = mouseX + mario_blue.width;
-  var blueLeft  = mouseX;
-  var marioTop   = marioY;
-  var marioBottom = marioY + mario.height;
-  var blueTop    = mouseY;
-  var blueBottom = mouseY + mario_blue.height;
+  let marioRight = marioX + mario.width;
+  let marioLeft  = marioX;
+  let blueRight = mouseX + mario_blue.width;
+  let blueLeft  = mouseX;
+  let marioTop   = marioY;
+  let marioBottom = marioY + mario.height;
+  let blueTop    = mouseY;
+  let blueBottom = mouseY + mario_blue.height;
 
   // deterine if a collision has occurred
   noStroke();

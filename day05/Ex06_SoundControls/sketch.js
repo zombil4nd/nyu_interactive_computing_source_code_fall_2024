@@ -1,5 +1,5 @@
 // declare a holder variable fo our sound
-var song;
+let song;
 
 function preload() {
   // preload our sound

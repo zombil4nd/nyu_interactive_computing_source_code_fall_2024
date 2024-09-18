@@ -3,7 +3,7 @@
 let artwork;
 
 // because we need to have the image scroll we will need to draw two copies of it to the screen at a time
-// the first copy will start at x=0, the second will start at x=1024 (right next to one another)
+// the first copy will start at x=0, the second will start at x=1920 (right next to one another)
 let p1 = 0;
 let p2 = 1920;
 

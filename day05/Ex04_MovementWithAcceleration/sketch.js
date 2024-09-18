@@ -1,11 +1,11 @@
 // character position
-var xPos, yPos ;
+let xPos, yPos ;
 
 // character speed
-var xSpeed, ySpeed;
+let xSpeed, ySpeed;
 
 // acceleration value (something VERY small)
-var accel = 0.1;
+let accel = 0.1;
 
 function setup() {
   createCanvas(500, 500);

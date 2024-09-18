@@ -1,11 +1,11 @@
 // our sound effect
-var boing;
+let boing;
 
 // position of our character
-var xPos, yPos;
+let xPos, yPos;
 
 // direction for our character
-var xDir, yDir;
+let xDir, yDir;
 
 // preload our sound
 function preload() {

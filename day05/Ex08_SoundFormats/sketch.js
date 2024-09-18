@@ -1,5 +1,5 @@
 // declare our sound variable
-var song;
+let song;
 
 function preload() {
   // tell the browser that we have made available both OGG and MP3 files
