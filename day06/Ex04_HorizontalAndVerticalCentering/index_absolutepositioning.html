@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <!-- include the p5.js library -->
+    <script src="../../js/p5.min.js"></script>
+
+    <!-- custom CSS -->
+    <style type="text/css">
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* absolute positioning implementation */
+        #center_absolutepositioning {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        canvas {
+            border: 2px solid orange;
+        }
+    </style>
+
+    <!-- your custom sketch code -->
+    <script src="sketch_absolutepositioning.js"></script>
+</head>
+
+<body>
+    <div id="center_absolutepositioning"></div>
+</body>
+
+</html>
