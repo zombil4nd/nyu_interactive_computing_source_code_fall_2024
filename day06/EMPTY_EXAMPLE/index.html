@@ -5,18 +5,31 @@
     <!-- include the p5 core library using the CDN -->
     <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js"></script -->
 
-    <!-- include the p5.js library from a local file -->
+    
     <script src="../../js/p5.min.js"></script>
 
-    <!-- your custom sketch code -->
+     <!-- your custom sketch code -->
     <script src="sketch.js"></script>
-
+    
     <!-- custom CSS styles for this page -->
-    <style></style>
+    <style>
+       
+    </style>
 
 </head>
 
 <body>
+    <div id="controls">
+        <button id="saveCanvas">Save Drawing</button>        
+        <button onclick="clearCanvas();">Clear Drawing</button>
+        <div>
+            Size:
+            <input type="range" id="brushSize" min="5" max="100" step="1">
+        </div>
+        <div>
+            <
+        </div>
+    </div>
 </body>
 
 </html>
