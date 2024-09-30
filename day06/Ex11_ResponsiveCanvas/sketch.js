@@ -29,7 +29,6 @@ function windowResized() {
 function adjustCanvasSize() {
     // compute the current aspect ratio of the window
     let windowAspectRatio = window.innerWidth / window.innerHeight;
-    let canvas = document.querySelector('canvas');
 
     // if the window aspect ratio is wider than the canvas aspect ratio,
     // we should maximize the height
