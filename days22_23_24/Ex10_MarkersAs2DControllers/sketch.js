@@ -17,7 +17,7 @@ let coins = [];
 let points = 0;
 
 function preload() {
-    playerArtwork = loadImage("images/player.png");
+    playerArtwork = loadImage("../images/player.png");
 }
 
 function setup() {
